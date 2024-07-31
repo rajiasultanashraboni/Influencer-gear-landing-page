@@ -26,13 +26,78 @@ body{
     display: flex;
     gap: 25px;
     align-items: center;
+    cursor: pointer;
 }
 
-.nav-links{
+.nav-links {
     list-style: none;
 }
 
 
+.bars{
+    display: none;
+}
+
+/* hero section is started here */
+
+.hero-section{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.hero-content{
+   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.hero-content h1{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.hero-content p{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 80%;
+}
+
+.hero-content button{
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: none;
+    padding: 10px 18px;
+    margin-top: 10px;
+    width: 30%;
+}
+
+.hero-image{
+    /* width: 50%; */
+    box-sizing: border-box;
+    border: 2px solid rgb(241, 228, 255);
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.hero-image img{
+    width: 100%;
+    background-color: rgb(233, 237, 240);
+    border-radius: 50%;
+   
+}
 
 
 
@@ -45,6 +110,29 @@ body{
 @media screen and (max-width:576px) {
     .nav-item{
         display: none;
+    }
+
+    .bars{
+        display: block;
+    }
+
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+
+    .hero-content{
+   
+        width: 100%;
+        
+    }
+
+    .hero-content p{
+        width: 100%;
+    }
+
+    .hero-content button{
+        
+        width: 50%;
     }
     
 }
