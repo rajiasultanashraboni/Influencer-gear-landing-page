@@ -29,6 +29,10 @@ body{
     cursor: pointer;
 }
 
+.cart{
+    list-style: none;
+}
+
 .nav-links {
     list-style: none;
 }
@@ -108,8 +112,12 @@ body{
 
 /* navbar section */
 @media screen and (max-width:576px) {
-    .nav-item{
+    .nav-links{
         display: none;
+    }
+
+    .cart{
+        display: block;
     }
 
     .bars{
