@@ -118,6 +118,45 @@ body{
 }
 
 
+/* popular collection is started here */
+.popular-collection-container h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-container{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.card img{
+    width: 100%;
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    
+}
+
+.card-content i{
+    
+    color: rgb(251, 130, 0);
+}
+    
+
+
+
+
 
 
 
@@ -161,6 +200,14 @@ body{
 
     .sponsor-container{
         flex-wrap: wrap;
+    }
+
+    /* popular section is here */
+
+    .card-container{
+    
+        grid-template-columns: 1fr;
+    
     }
     
 }
