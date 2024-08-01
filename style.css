@@ -169,6 +169,7 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .feature-image{
@@ -205,6 +206,27 @@ body{
     padding: 10px 20px;
     border: none;
     color: white;
+}
+
+.footer-container{
+    background: rgb(10, 8, 38);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content{
+    color: white;
+}
+
+.footer-content i{
+    margin-left: 15px;
+     background: rgb(255, 255, 255, 0.1);
+     border-radius: 50%;
+     padding: 10px;
+    
 }
     
 
@@ -281,6 +303,8 @@ body{
     .popular-collection-container{
         margin-bottom: 50px;
     }
+
+
     
 }
 
