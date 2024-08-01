@@ -119,6 +119,10 @@ body{
 
 
 /* popular collection is started here */
+.popular-collection-container{
+    margin-bottom: 90px;
+}
+
 .popular-collection-container h2{
     text-align: center;
     margin-bottom: 50px;
@@ -136,6 +140,12 @@ body{
 
 }
 
+.popular-collection-container h4{
+    text-align: right;
+    margin-top: 20px;
+    color: rgba(224, 44, 109, 0.87);;
+}
+
 .card img{
     width: 100%;
 }
@@ -151,6 +161,50 @@ body{
 .card-content i{
     
     color: rgb(251, 130, 0);
+}
+
+/* Feature container is starts here */
+
+.features-product-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feature-image{
+    width: 50%;
+}
+
+.feature-image img{
+    width: 100%;
+}
+
+.feature-content{
+    width: 50%;
+    padding: 70px 50px;
+}
+
+.feature-content h1{
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+    
+.feature-content p{
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.feature-content button{
+    background: rgb(224, 44, 109);
+    padding: 10px 20px;
+    border: none;
+    color: white;
 }
     
 
@@ -208,6 +262,24 @@ body{
     
         grid-template-columns: 1fr;
     
+    }
+
+    /* feature product is here */
+    .features-product-container{
+        flex-direction: column-reverse;
+    }
+
+    .feature-image{
+        width: 100%;
+    }
+
+    .feature-content{
+        width: 100%;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .popular-collection-container{
+        margin-bottom: 50px;
     }
     
 }
